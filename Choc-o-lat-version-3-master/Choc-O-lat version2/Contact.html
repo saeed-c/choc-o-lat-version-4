@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel ="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel ="stylesheet" type="text/css" href="css/menu.css">
+  <link rel ="stylesheet" type="text/css" href="css/contact.css">
+
+</head>
+<body>
+
+  <nav>
+  <div id="logo"><img src="assets/logo.png" alt="logo" width="15%"></div>
+
+  <label for="drop" class="toggle"><img src="assets/icon.png" alt="icon"></label>
+  <input type="checkbox" id="drop" />
+      <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Cart.html">Cart</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+      </ul>
+  </nav>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+
+    </ul>
+  </div>
+
+  <div class="col-6">
+  <h1>Contact Us</h1>
+    <p>Need some help?  Please get in touch using one of the options below</p>
+  </div>
+
+    <div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name*</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Email*</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your Email Address...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">What does your enquiry relate to?*
+</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="Products">Products</option>
+          <option value="Payment">Payment</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Your comments*
+</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <a class = "btnSubmit" href="submit.html">SUBMIT</a>
+    </div>
+  </form>
+</div>
+<br>
+
+
+  </div>
+
+
+</div>
+
+<div class="footer">
+  <p>CHOC O LAT</p>
+</div>
+
+</body>
+</html>
